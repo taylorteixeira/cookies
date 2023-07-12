@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Exemplo de botões e divs</title>
+  <style>
+    .div-escondida {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+  <button id="ver-cards" onclick="mostrarDiv()">Mostrar Div</button>
+  <button id="favoritos" onclick="ocultarDiv()">Ocultar Div</button>
+
+  <script>
+    function mostrarDiv() {
+      document.getElementById("btn-favorito").style.display = "block";
+    }
+
+    function ocultarDiv() {
+      document.getElementById("btn-favorito").style.display = "none";
+    }
+  </script>
+</body>
+
+</html>
